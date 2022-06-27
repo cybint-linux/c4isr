@@ -1,0 +1,20 @@
+Source: c4isr
+Section: misc
+Priority: optional
+Maintainer: CYBINT Dev Team <dev@cybint-linux.com>
+Uploaders: Tom Lee <tom@cybint.io>
+Build-Depends:
+ debhelper-compat (= 13),
+ librsvg2-bin,
+ optipng,
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Vcs-Git: https://gitlab.com/cybint-linux/packages/cybint-themes.git
+Vcs-Browser: https://gitlab.com/cybint-linux/packages/cybint-themes
+
+Package: c4isr
+Architecture: all
+Depends: ${misc:Depends},
+Description: C4ISR Framework
+ Used to execute Command, Control, Communications, Computers, Intelligence,
+ Surveillance and Reconnaissance tasks.
